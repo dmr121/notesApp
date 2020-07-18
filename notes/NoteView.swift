@@ -76,7 +76,7 @@ extension NoteView {
 struct NoteView_Previews: PreviewProvider {
     static var previews: some View {
         NoteView(title: "Title", noteBody: "body this is a body that i wrote and it is as very good body but to be completely honest it is very gramatically incorrect but that doesn't mattter because this will never see production", created: Date(), modified: Date(), buttonAction: {
-            print("fuck this function")
+            print("This is a function")
         })
     }
 }
